@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+
+}
+header{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        background-color:purple;
+        margin-bottom: 0;
+        border-bottom-style:dotted;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 20px 0;
+    background-color:purple;
+    margin-bottom: 0;
+    /* border-bottom-style:dotted; */
+}
+.heading{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+
+}
+
+
+nav ul li{
+    
+    display: inline-block;
+    margin: 10px 30px;
+    transition: 0,2s ease-in;
+    color: white;
+    
+}
+nav ul li i{
+    margin-right: 10px;
+}
+nav ul li:hover{
+    color:black;
+    cursor:pointer;
+  
+}
+.border:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    
+}    
+
+.logo{
+    
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+}
+.all{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* flex-wrap:wrap; */
+    flex-direction: row;
+    align-items: center;  
+    justify-content: center;
+    
+    
+
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.food{
+    text-align: center;
+    
+}
+.one{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    object-fit: cover;
+}
+.h{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+}
+.subsection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.item{
+    width: 100%;
+    /* height: 200px; */
+    object-fit: cover;
+    transition: 0,2s ease;
+    justify-content: space-between;
+    border-radius: 8px;
+    /* border: 2px solid black; */
+}
+
+
+        
+.list{
+    width: 90%;
+    height: 50%;
+}
+/* .item{
+    width: 20%;
+} */
+.item,.list:hover{
+    transform: scale(1.04);
+}
+/*  
+span{
+font-weight: 900;
+}
+.base{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    color: #fff;
+    width: 70%;
+}
+.base p{
+    font-weight:lighter;
+    font-size: 0.65rem;
+ }
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer; 
+
+
+} 
+.p{
+    margin-bottom: 150px;
+}
+.base p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.base h3{
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.end1{
+    text-align: center;
+}
+/* 
+.foot{
+    background-color: black;
+} */ 
+ .exp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .exp h2{
+    margin-right: 90px;
+    margin-top: 60px;
+    font-weight: 1000px;
+ }
+ .ham{
+    display: none;
+}
+.mogo{
+    /* text-align: center; */
+cursor: pointer;
+border-radius: 80px;
+width: 150px;
+height: 150px;
+/* padding-left: 0px; */
+/* object-fit: cover; */
+margin-left: 50px;
+}
+.flex{
+    display: flex;
+}
+.exp1{
+    display: flex;
+    /* margin-left: 600px;
+    margin-top: -85px; */
+
+}
+button{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 30px;
+    align-items: center;
+    text-align: left;
+    /* width: 40%; */
+    border: none;
+    border-radius: 10%;
+}
+button p{
+    font-size: 0.45rem;
+}
+button span{
+    font-size: 0.6rem;
+}
+button i{
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    scale: 1.1;
+}
+.base{
+    display: flex;
+    background-color: black;
+    margin-top: 100px;
+    color: #fff;
+    justify-content: space-around;
+
+}
+.base p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.base h3{
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.end1 h3{
+    font-weight: 600;
+    font-size: larger;
+}
+@media (max-width: 700px) 
+{
+    .all{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cont1{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .food{
+        width: 30%;
+        /* font-weight: 100; */
+       font-size: small;
+       display: flex;
+       flex-direction: column;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .one{
+       width: 100%;
+       height: 75%;
+    }
+    .subsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+ .cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+ .item{
+    width: 90%;
+    height: 400px;
+    
+
+ }
+ .list{
+    width: 100%;
+    height: 75%;
+ }
+    .ham{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .ham:hover{
+        cursor: pointer;
+        scale: 1.1;
+    }
+/*   
+    .sub1 {
+       display: flex;
+       flex-direction: column;
+       margin-top: 0;
+    } */
+    .exp{
+        margin-top:50px ;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        /* border: 2px solid red; */
+        /* padding: 3px; */
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .end1{
+        text-align: center;
+    }
+   
+    .menu{
+        display: none;
+    }
+    .p{
+        margin-bottom: 0;
+
+    }
+    .foot{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* .border{
+        margin-left: 0;
+    } 
+    .logo{
+        margin-right: 0;
+    } */
+    
+   
+}
+
+
